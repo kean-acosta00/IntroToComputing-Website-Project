@@ -1,0 +1,86 @@
+/* CSS for wall_page */
+body {
+    background-color: #212227;
+}
+    header {
+    background-color: #f18556;
+    padding: 20px;
+    text-align: left;
+    border-radius: 5px;
+}
+    header h1 {
+    color: #212227;
+    margin: 0;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+nav {
+    margin-top: 10px;
+}
+nav a {
+    color: #212227; 
+    text-decoration: none; 
+    margin: 15px; 
+    font-size: 16px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5ec6d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+h2 {
+    color: #212227;
+    margin: 0;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+}
+#userInputList {
+    list-style: none;
+    padding: 0;
+}
+#userInputList li {
+    background-color: #f18556;
+    border: 1px solid #212227;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212227;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+#userInputList li button {
+    margin-left: 10px;
+    background-color: #212227;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+footer {
+    background-color: #f18556;
+    padding: 20px;
+    text-align: center;
+    margin-top: 9%;
+    border-radius: 5px;
+}
+footer h1 {
+    color: #FFFFFF;
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
