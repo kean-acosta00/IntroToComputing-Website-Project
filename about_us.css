@@ -1,0 +1,86 @@
+/* CSS for about us */
+body {
+    background-color: #212227;
+}
+    header {
+    background-color: #f18556;
+    padding: 20px;
+    text-align: left;
+    border-radius: 5px;
+}
+    header h1 {
+    color: #212227;
+    margin: 0;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+h1 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+p {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 25px;
+}
+nav {
+    margin-top: 10px;
+}
+nav a {
+    color: #212227; 
+    text-decoration: none; 
+    margin: 15px; 
+    font-size: 16px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+.image {
+    text-align: center; 
+    margin: 50px; 
+  }
+  img {
+    max-width: 25%; 
+    height: auto;
+}
+.contactIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contactIcons a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #f5ec6d;
+}
+
+.contactIcons i {
+  font-size: 24px;
+}
+
+.contactIcons a:hover {
+  color: #f18556;
+}
+footer {
+    background-color: #f18556;
+    padding: 20px;
+    text-align: center;
+    margin-top: 9%;
+    border-radius: 5px;
+}
+footer h1 {
+    color: #FFFFFF;
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
