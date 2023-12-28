@@ -1,0 +1,47 @@
+/* CSS for index */
+        body {
+            margin: 0; 
+            padding: 0; 
+            background-color: #212227; 
+            background-size: auto; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+        }
+        h1 {
+            color: #f5ec6d ;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            font-size: 500%;
+            font-weight: bolder;
+            margin-bottom: 0%;
+        }
+        h2 {
+            color: #f18556;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            font-size: 300%;
+            font-style: italic;
+            margin-top: 0%;
+        }
+        p {
+            color: #f5ec6d;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 130%;
+            line-height: 150%;
+            font-weight: bold;
+            margin-top: 2%;
+        }
+        .indextohomebutt{
+            background-color: #f18556;
+            color: #212227;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .centerbutton {
+      text-align: center;
+    }
